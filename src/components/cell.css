@@ -1,0 +1,17 @@
+.cell {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 115px;
+    border-radius: 3px;
+    display: grid;
+    justify-content: center;
+  }
+
+  span {
+    text-align: center;
+  }
+
+  .presentDay{
+    background-color: #41B6E6;
+  }
