@@ -8,6 +8,7 @@ function Navbar(){
     const {_, offset, fechaOffset} = useContext(DateContext)
     const [stateOffset, setStateOffset] = offset
     const [stateFechaOffset,setStateFechaOffset] = fechaOffset
+    console.log(_)
 
     const MONTH_C=stateFechaOffset.getMonth();
     const YEAR_C=stateFechaOffset.getFullYear();
